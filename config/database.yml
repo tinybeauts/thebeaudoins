@@ -17,8 +17,7 @@ development:
   encoding: unicode
   database: thebeaudoins_development
   pool: 5
-  username: thebeaudoins
-  password:
+
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,13 +42,11 @@ test:
   encoding: unicode
   database: thebeaudoins_test
   pool: 5
-  username: thebeaudoins
-  password:
+
 
 production:
   adapter: postgresql
   encoding: unicode
   database: thebeaudoins_production
   pool: 5
-  username: thebeaudoins
-  password:
+
